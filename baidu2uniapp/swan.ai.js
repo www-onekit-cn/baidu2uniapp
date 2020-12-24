@@ -3,7 +3,7 @@
 // eslint-disable-next-line camelcase
 export default class swan_ai {
   static run(api, object) {
-    wx.request({
+    uni.request({
       data: object,
       // eslint-disable-next-line no-undef
       url: `https://${getApp().onekit.baidu}ai.${api}`,
