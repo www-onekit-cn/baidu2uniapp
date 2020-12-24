@@ -1,42 +1,42 @@
 export default function (swan_object) {
 	const uniapp_object = {
 		onLaunch(uni_launchOpions) {
-			let wx_launchOpions = {}
+			let swan_launchOpions = {}
 			/*
-			uni_launchOpions => wx_launchOpions
+			uni_launchOpions => swan_launchOpions
 			*/
-			wx_launchOpions = uni_launchOpions
-			wx_launchOpions.shareTicket = undefined
-			wx_launchOpions.referrerInfo = {}
+			swan_launchOpions = uni_launchOpions
+			swan_launchOpions.shareTicket = undefined
+			swan_launchOpions.referrerInfo = {}
 			//////////////////////
-			this.onekit_launchOpions = wx_launchOpions
+			this.onekit_launchOpions = swan_launchOpions
 			if (swan_object.onLaunch) {
-				swan_object.onLaunch.call(this, wx_launchOpions)
-				// swan_object.onLaunch(wx_launchOpions)
+				swan_object.onLaunch.call(this, swan_launchOpions)
+				// swan_object.onLaunch(swan_launchOpions)
 			}
 		},
 		onShow(uni_showOpions) {
-			let wx_showOpions = {}
-			wx_showOpions = uni_showOpions
-			this.onekit_showOptions = wx_showOpions
+			let swan_showOpions = {}
+			swan_showOpions = uni_showOpions
+			this.onekit_showOptions = swan_showOpions
 			if (swan_object.onShow) {
 				swan_object.onShow.call(this, uni_showOpions)
 			}
 		},
 		onUnhandledRejection(uni_rejectionFn) {
 			/**     未生效       */
-			let wx_rejectionFn = uni_rejectionFn()
-			this.onekit_rejectionFn = wx_rejectionFn()
+			let swan_rejectionFn = uni_rejectionFn()
+			this.onekit_rejectionFn = swan_rejectionFn()
 			if (swan_object.onUnhandledRejection) {
-				swan_object.onUnhandledRejection(wx_rejectionFn())
+				swan_object.onUnhandledRejection(swan_rejectionFn())
 			}
 		},
 		onThemeChange(uni_themeChangeFn) {
 			/**     未测试    */
-			let wx_themeChangeFn = uni_themeChangeFn()
-			this.onekit_themeChangeFn = wx_themeChangeFn()
+			let swan_themeChangeFn = uni_themeChangeFn()
+			this.onekit_themeChangeFn = swan_themeChangeFn()
 			if (swan_object.onThemeChange) {
-				swan_object.onThemeChange(wx_themeChangeFn())
+				swan_object.onThemeChange(swan_themeChangeFn())
 			}
 		}
 	}
