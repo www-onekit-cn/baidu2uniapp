@@ -1,4 +1,6 @@
-import Classify from './ai/Classify'
-export default { 
-  ...Classify
+export default class VoiceRecognizer{ 
+  
+  static getVoiceRecognizer(){
+
+  }
 }

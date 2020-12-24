@@ -1,23 +1,7 @@
-export default class Classify{
-   static advancedGeneralIdentify(){
+export default class NlpLexerCustom{
+
+   static nlpLexerCustom(object){
 
    }
-   static animalClassify(){
-     
-   }
-   static carClassify(){
-     
-  }
-  static dishClassify(){
-     
-  }
-  static logoClassify(){
-     
-  }
-  static objectDetectIdentify(){
-     
-  }
-  static plantClassify(){
-     
-  }
+ 
 }

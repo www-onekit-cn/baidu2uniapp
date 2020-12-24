@@ -1,4 +1,8 @@
-export default class TextReview{
+export default class ImageAudit{
+  
+  static imageAudit(object){
+
+  }
    
 
 }
