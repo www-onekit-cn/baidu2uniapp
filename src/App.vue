@@ -16,5 +16,5 @@
 </script>
 
 <style>
-	@import '../baidu2uniapp/onekit.css'
+	@import '../public/onekit.css'
 </style>
