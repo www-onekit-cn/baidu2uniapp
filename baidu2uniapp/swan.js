@@ -44,11 +44,11 @@ export default class swan {
   
   //////// URL Query /////
   static getURLQuery() {
-		return console.error("getURLQuery暂不支持")
+		return console.warn("getURLQuery is not support")
   }
 
   static setURLQuery() {
-		return console.error("setURLQuery暂不支持")
+		return console.warn("setURLQuery is not support")
   }
 
   //////// 更新 /////
@@ -207,7 +207,7 @@ export default class swan {
   
   /////// 关注小程序引导组件 /////
   static showFavoriteGuide(object) {
-		return console.error("showFavoriteGuide暂不支持")
+		return console.warn("showFavoriteGuide is not support")
   }
 
   /////// 位置 /////
@@ -327,7 +327,7 @@ export default class swan {
   }
   
   static chooseAlbum(object) {
-		return console.error("chooseAlbum暂不支持")
+		return console.warn("chooseAlbum is not support")
 	}
 
 	static compressImage(object) {
@@ -341,7 +341,7 @@ export default class swan {
   
   /////// AR 相机组件控制 /////
   static createARCameraContext() {
-		return console.error("createARCameraContext暂不支持")
+		return console.warn("createARCameraContext is not support")
   }
   
   /////// 背景音频组件控制 /////
@@ -355,7 +355,7 @@ export default class swan {
   }
   
   static setInnerAudioOption(object) {
-		return console.error("setInnerAudioOption暂不支持")
+		return console.warn("setInnerAudioOption is not support")
   }
   
   /////// 录音管理器 /////
@@ -364,7 +364,7 @@ export default class swan {
   }
   
   static getAvailableAudioSources(object) {
-		return console.error("getAvailableAudioSources暂不支持")
+		return console.warn("getAvailableAudioSources is not support")
   }
 
   /////// 视频 /////
@@ -383,7 +383,7 @@ export default class swan {
   
   /////// 透明视频组件控制 /////
   static createAnimationVideo(string) {
-		return console.error("createAnimationVideo暂不支持")
+		return console.warn("createAnimationVideo is not support")
   }
 
   /////// 直播组件控制 /////
@@ -393,7 +393,7 @@ export default class swan {
   
   /////// RTC 组件控制 /////
   static createRtcRoomContext(string) {
-		return console.error("createRtcRoomContext暂不支持")
+		return console.warn("createRtcRoomContext is not support")
   }
 
   ///////////////// 位置 ////////////////////
@@ -415,19 +415,19 @@ export default class swan {
 
   /////// 位置更新 /////
   static stopLocationUpdate(object) {
-		return console.error("stopLocationUpdate暂不支持")
+		return console.warn("stopLocationUpdate is not support")
 	}
 
 	static onLocationChange(callback) {
-		return console.error("onLocationChange暂不支持")
+		return console.warn("onLocationChange is not support")
 	}
 
 	static offLocationChange(callback) {
-		return console.error("offLocationChange暂不支持")
+		return console.warn("offLocationChange is not support")
   }
   
   static startLocationUpdateBackground(object) {
-		return console.error("startLocationUpdateBackground暂不支持")
+		return console.warn("startLocationUpdateBackground is not support")
   }
   
   /////// 地图组件控制 /////
@@ -438,19 +438,19 @@ export default class swan {
   /////////////////// 画布 //////////////////////////
 
 	static createCanvasContext(string,object) {
-		return console.error("createCanvasContext暂不支持")
+		return console.warn("createCanvasContext is not support")
   }
   
   static canvasPutImageData(object1,object2) {
-		return console.error("canvasPutImageData暂不支持")
+		return console.warn("canvasPutImageData is not support")
 	}
 
 	static canvasGetImageData(object1,object2) {
-		return console.error("canvasGetImageData暂不支持")
+		return console.warn("canvasGetImageData is not support")
 	}
 
 	static canvasToTempFilePath(object1,object2) {
-		return console.error("canvasToTempFilePath暂不支持")
+		return console.warn("canvasToTempFilePath is not support")
   }
   
   /////////////////// 文件 //////////////////////////
@@ -499,7 +499,7 @@ export default class swan {
 	}
 
 	static getEnvInfoSync() {
-		return console.error("getEnvInfoSync暂不支持")
+		return console.warn("getEnvInfoSync is not support")
   }
   
   //////// 网络状态 ///////
@@ -580,15 +580,15 @@ export default class swan {
 
   /////// 设备方向 ///////
   static onDeviceMotionChange(callback) {
-		return console.error("onDeviceMotionChange暂不支持")
+		return console.warn("onDeviceMotionChange is not support")
   }
 
   static startDeviceMotionListening(object) {
-		return console.error("startDeviceMotionListening暂不支持")
+		return console.warn("startDeviceMotionListening is not support")
 	}
   
 	static stopDeviceMotionListening(object) {
-		return console.error("stopDeviceMotionListening暂不支持")
+		return console.warn("stopDeviceMotionListening is not support")
   }
 
   /////// 内存警报 ///////
@@ -603,11 +603,11 @@ export default class swan {
   
   /////// 电量信息 ///////
   static getBatteryInfo(object) {
-		return console.error("getBatteryInfo暂不支持")
+		return console.warn("getBatteryInfo is not support")
   }
   
 	static getBatteryInfoSync() {
-		return console.error("getBatteryInfoSync暂不支持")
+		return console.warn("getBatteryInfoSync is not support")
   }
   
   /////// 用户截屏事件 ///////
@@ -617,11 +617,11 @@ export default class swan {
   
   /////// 在系统中新建日历 ///////
   static addEventOnCalendar(object) {
-    return console.error("addEventOnCalendar暂不支持")
+    return console.warn("addEventOnCalendar is not support")
   }
 
   static deleteEventOnCalendar(object) {
-    return console.error("deleteEventOnCalendar暂不支持")
+    return console.warn("deleteEventOnCalendar is not support")
   }
 
   /////// 键盘高度 ///////
@@ -630,7 +630,7 @@ export default class swan {
 	}
 
 	static offKeyboardHeightChange(callback) {
-		return console.error("offKeyboardHeightChange暂不支持")
+		return console.warn("offKeyboardHeightChange is not support")
   }
   
   /////////////////// 第三方平台 //////////////////////////
@@ -652,7 +652,7 @@ export default class swan {
   }
   
   static getLoginCode(object) {
-		return console.error("getLoginCode暂不支持")
+		return console.warn("getLoginCode is not support")
 	}
 
 	static checkSession(object) {
@@ -660,7 +660,7 @@ export default class swan {
   }
   
   static isLoginSync() {
-		return console.error("isLoginSync暂不支持")
+		return console.warn("isLoginSync is not support")
   }
   
   /////// 授权 /////
@@ -684,24 +684,24 @@ export default class swan {
   
   /////// 页面基础信息 /////
   static setPageInfo(object) {
-		return console.error("setPageInfo暂不支持")
+		return console.warn("setPageInfo is not support")
   }
   
   static setMetaDescription(object) {
-		return console.error("setMetaDescription暂不支持")
+		return console.warn("setMetaDescription is not support")
   }
   
   static setPageInfo(object) {
-		return console.error("setPageInfo暂不支持")
+		return console.warn("setPageInfo is not support")
   }
   
   static setDocumentTitle(object) {
-		return console.error("setDocumentTitle暂不支持")
+		return console.warn("setDocumentTitle is not support")
   }
   
   /////// 分包预下载 /////
   static loadSubPackage(object) {
-		return console.error("loadSubPackage暂不支持")
+		return console.warn("loadSubPackage is not support")
   }
 
   /////// 数据分析 /////
@@ -711,45 +711,45 @@ export default class swan {
 
   /////// 风控 /////
   static getSystemRiskInfo(object) {
-		return console.error("getSystemRiskInfo暂不支持")
+		return console.warn("getSystemRiskInfo is not support")
   }
 
   /////// 订阅 /////
   static subscribeService(object) {
-		return console.error("subscribeService暂不支持")
+		return console.warn("subscribeService is not support")
   }
 
   /////// 书架 /////
   static insertBookshelf(object) {
-		return console.error("insertBookshelf暂不支持")
+		return console.warn("insertBookshelf is not support")
   }
 
   static deleteBookshelf(object) {
-		return console.error("deleteBookshelf暂不支持")
+		return console.warn("deleteBookshelf is not support")
   }
 
   static queryBookshelf(object) {
-		return console.error("queryBookshelf暂不支持")
+		return console.warn("queryBookshelf is not support")
   }
 
   static updateBookshelfReadTime(object) {
-		return console.error("updateBookshelfReadTime暂不支持")
+		return console.warn("updateBookshelfReadTime is not support")
   }
 
   static navigateToBookshelf(object) {
-		return console.error("navigateToBookshelf暂不支持")
+		return console.warn("navigateToBookshelf is not support")
   }
 
   /////// 跳转 /////
   static openBdboxWebview(object) {
-		return console.error("openBdboxWebview暂不支持")
+		return console.warn("openBdboxWebview is not support")
   }
 
   /////////////////// 用户接口 //////////////////////////
 
   /////// 用户信息 /////
   static getSwanId(object) {
-		return console.error("getSwanId暂不支持")
+		return console.warn("getSwanId is not support")
   }
 
 	static getUserInfo(object) {
@@ -758,20 +758,20 @@ export default class swan {
   
   /////// 分享 /////
   static openShare(object) {
-		return console.error("openShare暂不支持")
+		return console.warn("openShare is not support")
   }
 
   static shareFile(object) {
-		return console.error("shareFile暂不支持")
+		return console.warn("shareFile is not support")
   }
 
   /////// 打开小程序 /////
   static navigateToSmartProgram(object) {
-		return console.error("navigateToSmartProgram暂不支持")
+		return console.warn("navigateToSmartProgram is not support")
   }
 
   static navigateBackSmartProgram(object) {
-		return console.error("navigateBackSmartProgram暂不支持")
+		return console.warn("navigateBackSmartProgram is not support")
   }
 
   /////// 获取收货地址 /////
@@ -786,20 +786,20 @@ export default class swan {
   
   /////// 全屏内容发布器 /////
   static openCommunityEditor(object) {
-		return console.error("openCommunityEditor暂不支持")
+		return console.warn("openCommunityEditor is not support")
   }
 
   static closeCommunityEditor(object) {
-		return console.error("closeCommunityEditor暂不支持")
+		return console.warn("closeCommunityEditor is not support")
   }
 
   /////// 半屏内容发布器 /////
   static openReplyEditor(object) {
-		return console.error("openReplyEditor暂不支持")
+		return console.warn("openReplyEditor is not support")
   }
 
   static closeReplyEditor(object) {
-		return console.error("closeReplyEditor暂不支持")
+		return console.warn("closeReplyEditor is not support")
   }
 
   ///////////////// 云开发 ////////////////////
